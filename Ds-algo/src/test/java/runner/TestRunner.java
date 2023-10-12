@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\myhome\\eclipse-workspace\\Ds-algo\\src\\test\\java\\features",
+@CucumberOptions(features="src\\test\\java\\features",
                   glue={"dsStepDefinitions","hooks"},
                   monochrome=true,
                   tags="@all",
