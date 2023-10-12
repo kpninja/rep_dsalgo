@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\java\\features",
                   glue={"dsStepDefinitions","hooks"},
                   monochrome=true,
+                  publish=true,
                   tags="@all",
                 		  plugin= {"pretty",
                 					"html:target/CucumberReports/CucumberReport.html",
