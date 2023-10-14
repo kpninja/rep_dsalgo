@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\java\\features\\Test01_ds_GetStarted.feature",
+@CucumberOptions(features="src\\test\\java\\features",
                   glue={"dsStepDefinitions","hooks"},
                   monochrome=true,
                   publish=true,
